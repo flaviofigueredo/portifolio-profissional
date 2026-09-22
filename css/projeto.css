@@ -7,6 +7,13 @@ body {
     color: black;
     background-color: aliceblue;
 }
+p {
+    font-size: smaller;
+    text-align: center;
+}
+h2 {
+    font-size: larger;
+}
 header {
     background-color: #00008b;
     color: white;
@@ -37,7 +44,4 @@ footer a:hover{
 }
 img {
     text-align: right;
-}
-main p {
-    text-align: center;
 }
