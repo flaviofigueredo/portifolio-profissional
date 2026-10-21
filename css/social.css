@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: black;
+    background-color: aliceblue;
+}
+p {
+    font-size: smaller;
+    text-align: center;
+}
+h2 {
+    font-size: larger;
+}
+h3 {
+    font-size: larger;
+    text-align: center;
+}
+header {
+    background-color: #00008b;
+    color: white;
+    padding: 2px;
+}
+header a{
+    text-align: center;
+    color:aliceblue;
+    font-weight: bold;
+    padding: 10px;
+}
+header a:hover{
+    color:chartreuse;
+}
+footer {
+    background-color: #00008b;
+    color: white;
+    padding: 2px;
+}
+footer a{
+    text-align: center;
+    color:aliceblue;
+    font-weight: bold;
+    padding: 10px;
+}
+footer a:hover{
+    color:chartreuse;
+}
+img {
+    text-align: right;
+}
