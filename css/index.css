@@ -21,6 +21,16 @@ header a{
 header a:hover{
     color:chartreuse;
 }
+p {
+    font-size: smaller;
+    text-align: center;
+}
+h2 {
+    font-size: larger;
+}
+h3 {
+    text-align: center;
+}
 footer {
     background-color: #00008b;
     color: white;
