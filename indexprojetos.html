@@ -3,39 +3,128 @@
     <head>
         <title> Projetos </title>
         <meta name="Flávio Figueredo dos Santos" content="Portfolio" charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/projeto.css">
     </head>
     <body>
         <header>
-            <nav>
-                <p>
-                    <a href="index.html">Início</a>
-                    <a href="social.html">Redes Sociais</a>
-                    <a href="indexprojetos.html">Projetos</a>
-                </p>
+            <nav class="navbar sm:navbar-expand bg-1 fg-2">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="./img/principal.webp" height="90px" style="border-radius: 50%;"></a>
+                    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                    </button>
+                    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNavAltMarkup" aria-labelledby="navbarNavAltMarkupLabel">
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="navbarNavAltMarkupLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                    </div>
+                    <div class="drawer-body">
+                        <div class="nav nav-pills navbar-nav" style="background-color: #9c97eb;">
+                        <a class="nav-link" href="./index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="indexprojetos.html" style="background-color:darkred;">Projetos</a>
+                        <a class="nav-link" href="social.html">Redes Sociais</a>
+                        </div>
+                    </div>
+                    </dialog>
+                </div>
             </nav>
         </header>
+        <br>
         <main>
-            
-            <h2>Meus principais projetos<h2>
-            <p>
-                Exercícios em Python
-                <br>
-                <a href="https://github.com/flaviofigueredo/exerciciospython2-semestrefatec2026" target="_blank"><img src="/img/Python-logo.webp" height="100px"></a>
-            </p>
-            <p>
-                Sistema de Biblioteca
-                <br>
-                <a href="https://github.com/flaviofigueredo/biblioteca-municipal" target="_blank"><img src="/img/9043296.webp" height="100px"></a>
-            </p>
+            <h1 style="text-align: center; font-size: xx-large; padding: 10px;">Meus principais projetos</h1>
+            <br>
+            <div class="contains-inline">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="/img/Python-logo.webp" class="card-img-top" alt="Python-logo"> 
+                        <div class="card-body">
+                        <a href="https://github.com/flaviofigueredo/exerciciospython2-semestrefatec2026" target="_blank"><h4 class="card-title">Exercícios em Python</h4></a>
+                        <p class="card-text">Exercícios de Python que foram feitos na Fatec Rubens Lara durante o 2º Semestre de 2026</p>
+                        <br>
+                        </div>
+                        <div class="card-footer">
+                        <small class="fg-2"></small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/img/9043296.webp" class="card-img-top" alt="Biblioteca-logo">
+                        <div class="card-body">
+                        <a href="https://github.com/flaviofigueredo/biblioteca-municipal" target="_blank"><h4 class="card-title">Sistema de Biblioteca</h4></a>
+                        <p class="card-text">Um Sistema que simula o cadastro de itens e cálculo de multa de uma Biblioteca</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="fg-2"></small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/images (1).png" class="card-img-top" alt="Matematica-logo">
+                        <div class="card-body">
+                        <a href="https://github.com/flaviofigueredo/sistema-matematico" target="_blank"><h4 class="card-title">Sistema Matemático</h4></a>
+                        <p class="card-text">Um sistema que simula uma calculadora e que também calcula a fórmula de Bháskara</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="fg-2"></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="padding: 20px; background-color: #00008b;">
+            <div class="contains-inline">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="./img/Gestão acadêmica.avif" class="card-img-top" alt="Acadêmica-logo"> 
+                        <div class="card-body">
+                        <a href="https://github.com/flaviofigueredo/gestao-academica" target="_blank"><h4 class="card-title">Gestão Acadêmica</h4></a>
+                        <p class="card-text">Um Sistema que Simula o Gerenciameno de uma Biblioteca</p>
+                        <br>
+                        </div>
+                        <div class="card-footer">
+                        <small class="fg-2"></small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/BRAZIL_school_icons.png" class="card-img-top" alt="Escola-logo">
+                        <div class="card-body">
+                        <a href="https://ric.cps.sp.gov.br/handle/123456789/41281" target="_blank"><h4 class="card-title">TCC de Logística</h4></a>
+                        <p class="card-text">Um TCC feito no Curso Técnico de Logística sobre Gestão de Alimentos em Escolas</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="fg-2"></small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/images.png" class="card-img-top" alt="Tech-logo">
+                        <div class="card-body">
+                        <a href="https://github.com/flaviofigueredo/gestao-techprime" target="_blank"><h4 class="card-title">Sistema Gestão Tech-Prime</h4></a>
+                        <p class="card-text">Um sistema que cadastra e lista bens e funcionários</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="fg-2"></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
+        <br>
         <footer>
             <h2>Meus Contatos</h2>
-            <p>
-                <li><a href="flaviofigueredo2828@gmail.com">Email</a>
-                <a href="https://github.com/flaviofigueredo" target="_blank">Git Hub</a>
-                <a href="+5513996352808">Telefone</a></li>
-            </p>
+            <nav class="navbar sm:navbar-expand bg-1 fg-2">
+                    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNavAltMarkup" aria-labelledby="navbarNavAltMarkupLabel">
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="navbarNavAltMarkupLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                    </div>
+                    <div class="drawer-body">
+                        <div class="nav nav-pills navbar-nav" style="background-color: #15863b; display: flex; justify-content: center; width: 100%;">
+                            <a class="nav-link" href="flaviofigueredo2828@gmail.com">Email</a>
+                            <a class="nav-link" href="https://github.com/flaviofigueredo" target="_blank">Git Hub</a>
+                            <a class="nav-link" href="+5513996352808">Telefone</a>
+                        </div>
+                    </div>
+                    </dialog>
+                </div>
+            </nav>
         </footer>
     </body>
 </html>
