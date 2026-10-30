@@ -3,38 +3,58 @@
     <head>
         <title> Portfolio </title>
         <meta name="Flávio Figueredo dos Santos" content="Portfolio" charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/index.css">
     </head>
     <body>
         <header>
-            <nav>
-                <p>
-                    <a href="index.html">Início</a>
-                    <a href="social.html">Redes Sociais</a>
-                    <a href="indexprojetos.html">Projetos</a>
-                </p>
+            <nav class="navbar sm:navbar-expand bg-1 fg-2">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="./img/principal.webp" height="90px" style="border-radius: 50%;"></a>
+                    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                    </button>
+                    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNavAltMarkup" aria-labelledby="navbarNavAltMarkupLabel">
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="navbarNavAltMarkupLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                    </div>
+                    <div class="drawer-body">
+                        <div class="nav nav-pills navbar-nav" style="background-color: #9c97eb;">
+                        <a class="nav-link active" aria-current="page" href="./index.html" style="background-color:darkred;">Home</a>
+                        <a class="nav-link" href="indexprojetos.html">Projetos</a>
+                        <a class="nav-link" href="social.html">Redes Sociais</a>
+                        </div>
+                    </div>
+                    </dialog>
+                </div>
             </nav>
         </header>
         <main>
-            
-            <h3> Seja Bem vindo ao meu portifólio <h3>
-            <p> Fique a vontade para ver os projetos que eu fiz
-                <br>
+            <br>
+            <h3> Seja bem vindo ao meu portifólio <h3>
+            <p>Fique a vontade para ver os projetos que eu fiz</p>
             <img src="/img/principal.webp" height="380px">
-            </p>
-            <h2> Seções do Portfólio </h2>
-            <ul>
-                <li><a href="social.html">Redes Sociais</a></li>
-                <li><a href="indexprojetos.html">Projetos</a></li>
-            </ul>
         </main>
+        <br>
         <footer>
             <h2>Meus Contatos</h2>
-            <p>
-                <li><a href="flaviofigueredo2828@gmail.com">Email</a>
-                <a href="https://github.com/flaviofigueredo" target="_blank">Git Hub</a>
-                <a href="+5513996352808">Telefone</a></li>
-            </p>
+            <nav class="navbar sm:navbar-expand bg-1 fg-2">
+                    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNavAltMarkup" aria-labelledby="navbarNavAltMarkupLabel">
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="navbarNavAltMarkupLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                    </div>
+                    <div class="drawer-body">
+                        <div class="nav nav-pills navbar-nav" style="background-color: #15863b; display: flex; justify-content: center; width: 100%;">
+                            <a class="nav-link" href="flaviofigueredo2828@gmail.com">Email</a>
+                            <a class="nav-link" href="https://github.com/flaviofigueredo" target="_blank">Git Hub</a>
+                            <a class="nav-link" href="+5513996352808">Telefone</a>
+                        </div>
+                    </div>
+                    </dialog>
+                </div>
+            </nav>
         </footer>
     </body>
 </html>

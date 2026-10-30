@@ -3,9 +3,19 @@
 }
 
 body {
-    font-family: Arial, Verdana, sans-serif;
     color: black;
     background-color: aliceblue;
+}
+nav {
+    background-color:#00008b;
+    font-weight: bold;
+    padding: 10px;
+}
+nav a {
+    color:black;
+}
+nav a:hover{
+    color:greenyellow
 }
 p {
     font-size: smaller;
@@ -44,4 +54,21 @@ footer a:hover{
 }
 img {
     text-align: right;
+}
+.card {
+    width: 100%;
+    max-width: 300px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.card-group {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.card-title {
+    text-align: center;
 }
